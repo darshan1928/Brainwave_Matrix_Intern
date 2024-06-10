@@ -4,14 +4,30 @@
 body {
   padding: 0;
   margin: 0;
+  font-family: "Roboto", sans-serif;
 }
-
+.input-box {
+  width: 98%;
+  border: 1px solid #d3d8dc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 5px;
+}
+.btn-box {
+  background-color: #202529;
+  border-radius: 5px;
+  color: #cdd4da;
+  padding: 10px 15px;
+  margin-left: 11px;
+  border: none;
+  margin-top: 10px;
+}
 .todoBackground {
   height: 100vh;
   width: 100%;
-  background-color: #ddd;
-  color: black;
-  text-align: center;
+  background-color: #fff;
+  color: #22272b;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -20,6 +36,24 @@ body {
 .todoContainer {
   width: 500px;
   height: 650px;
-  background-color: blue;
-  color: aliceblue;
+ border: 1px solid black;
+}
+
+.task-container {
+  margin: 10px;
+  background-color: #cdd4da;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: #b4bdc5;
+}
+.update-btn {
+  background-color: #f8f9fa;
+  color: #202529;
+  padding: 10px 15px;
+  margin: 5px;
+}
+.task {
+  margin: 5px;
+  color: #464f56;
 }
