@@ -47,8 +47,8 @@ function renderTasks() {
       editTask(index);
     });
 
-    taskUpdateDiv.appendChild(deleteBtn);
     taskUpdateDiv.appendChild(editBtn);
+    taskUpdateDiv.appendChild(deleteBtn);
 
     taskDiv.appendChild(taskUpdateDiv);
     taskContainer.appendChild(taskDiv);
